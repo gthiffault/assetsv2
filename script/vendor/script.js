@@ -697,24 +697,24 @@ function onScroll(event){
 						delay: 1.6, 
 					});   
 
-					TweenLite.to($('.c-banner_description'), 0.5, {
+					TweenLite.to($('.c-banner_description'), 0.3, {
 						opacity:1,
 						ease: Sine.easeOut, 
 						delay: 2.3, 
 						marginTop:0,
 					});   		
 
-					TweenLite.to($('.c-banner_title'), 0.8, {
+					TweenLite.to($('.c-banner_title'), 0.5, {
 						opacity:1,
 						ease: Sine.easeOut, 
-						delay: 2.6, 
+						delay: 2.4, 
 						marginTop:0,
 					});   	
 
 					TweenLite.to($('.c-banner_info_border'), 0.3, {
 						opacity:1,
 						ease: Sine.easeOut, 
-						delay: 3.1, 
+						delay: 2.8, 
 						right:0,
 					});   	
 
