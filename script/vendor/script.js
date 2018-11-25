@@ -700,7 +700,7 @@ function onScroll(event){
 					TweenLite.to($('.c-banner_description'), 0.75, {
 						opacity:1,
 						ease: Sine.easeOut, 
-						delay: 2.5, 
+						delay: 2.1, 
 						marginTop:0,
 					});   						
 
