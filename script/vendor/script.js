@@ -707,14 +707,14 @@ function onScroll(event){
 					TweenLite.to($('.c-banner_title'), 0.5, {
 						opacity:1,
 						ease: Sine.easeOut, 
-						delay: 2.4, 
+						delay: 2.6, 
 						marginTop:0,
 					});   	
 
 					TweenLite.to($('.c-banner_info_border'), 0.3, {
 						opacity:1,
 						ease: Sine.easeOut, 
-						delay: 2.8, 
+						delay: 3.1, 
 						right:0,
 					});   	
 
