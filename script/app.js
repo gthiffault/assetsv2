@@ -699,21 +699,21 @@ function onScroll(event){
 
 					TweenLite.to($('.c-banner_description'), 0.3, {
 						opacity:1,
-						ease: Sine.easeOut, 
+						ease: Power4.easeOut, 
 						delay: 2.3, 
 						marginTop:0,
 					});   		
 
 					TweenLite.to($('.c-banner_title'), 0.5, {
 						opacity:1,
-						ease: Sine.easeOut, 
+						ease: Power4.easeOut, 
 						delay: 2.5, 
 						marginTop:0,
 					});   	
 
 					TweenLite.to($('.c-banner_info_border'), 0.3, {
 						opacity:1,
-						ease: Sine.easeOut, 
+						ease: Power4.easeOut, 
 						delay: 3.1, 
 						right:0,
 					});   	
