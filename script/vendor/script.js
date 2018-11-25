@@ -692,10 +692,17 @@ function onScroll(event){
 						});  
 
 					TweenLite.to($('#pageload'), 0.5, {
-					opacity:0,
-					ease: Sine.easeOut, 
-					delay: 1.6, 
-				});   	
+						opacity:0,
+						ease: Sine.easeOut, 
+						delay: 1.6, 
+					});   
+
+					TweenLite.to($('.c-banner_description'), 0.75, {
+						opacity:1,
+						ease: Sine.easeOut, 
+						delay: 2.5, 
+						marginTop:0,
+					});   						
 
 var bar = new ProgressBar.Path('#heart-path', {
   easing: 'easeInOut',
