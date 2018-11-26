@@ -2538,7 +2538,9 @@ a.js-section-active {
 @media only screen and (min-width: 320px) {
   .c-our-team_img {
     position: static;
-    margin-bottom: 96px; } }
+    margin-bottom: 96px; }
+  .c-our-team_ul {
+    padding-right: 20px; } }
 
 @media only screen and (min-width: 720px) {
   .c-our-team_content {
@@ -2553,7 +2555,9 @@ a.js-section-active {
       width: 16px; }
   .c-our-team_img {
     position: absolute;
-    margin-bottom: 80px; } }
+    margin-bottom: 80px; }
+  .c-our-team_ul {
+    padding-right: 48px; } }
 
 @media only screen and (min-width: 840px) {
   .c-our-team_content {
@@ -2597,8 +2601,7 @@ a.js-section-active {
 	==========================================================================*/
 .c-our-team_ul {
   margin-left: -96px !important;
-  text-align: center;
-  padding-right: 48px; }
+  text-align: center; }
 
 .c-our-team_ul li img {
   width: 100%; }
@@ -2832,7 +2835,9 @@ a.js-section-active {
     font-size: 16px; }
   .c-contact_radio-button .c-contact_radio-button_choice {
     position: static;
-    margin-top: 12px; } }
+    margin-top: 12px; }
+  .c-contact_logo {
+    max-width: 200px; } }
 
 @media only screen and (min-width: 600px) {
   .c-contact_information p, .c-contact_information a {
@@ -2845,15 +2850,21 @@ a.js-section-active {
 
 @media only screen and (min-width: 840px) {
   .c-contact_information p, .c-contact_information a {
-    font-size: 18px; } }
+    font-size: 18px; }
+  .c-contact_logo {
+    max-width: 300px; } }
 
 @media only screen and (min-width: 1024px) {
   .c-contact_information p, .c-contact_information a {
-    font-size: 20px; } }
+    font-size: 20px; }
+  .c-contact_logo {
+    max-width: 320px; } }
 
 @media only screen and (min-width: 1280px) {
   .c-contact_information p, .c-contact_information a {
-    font-size: 24px; } }
+    font-size: 24px; }
+  .c-contact_logo {
+    max-width: 380px; } }
 
 /*==============================================================================
     VENDORS
