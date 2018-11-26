@@ -2707,7 +2707,7 @@ a.js-section-active {
   margin-bottom: 0; }
 
 #google_map {
-  height: 650px; }
+  height: 480px; }
 
 /***************************************************************************
 		CONTACT US - FORM
@@ -2839,9 +2839,19 @@ a.js-section-active {
   .c-contact_logo {
     max-width: 200px; } }
 
+@media only screen and (min-width: 400px) {
+  .c-contact_logo {
+    max-width: 225px; } }
+
+@media only screen and (min-width: 480px) {
+  .c-contact_logo {
+    max-width: 250px; } }
+
 @media only screen and (min-width: 600px) {
   .c-contact_information p, .c-contact_information a {
-    font-size: 18px; } }
+    font-size: 18px; }
+  .c-contact_logo {
+    max-width: 275px; } }
 
 @media only screen and (min-width: 720px) {
   .c-contact_radio-button .c-contact_radio-button_choice {
