@@ -654,8 +654,8 @@ function onScroll(event){
 							}, 500);
 							$('#o-form').slideUp(500, function() { $(this).remove(); } );
 							setTimeout(function() {
-		                           $( '<div class="c-confirmation">\<div class="c-confirmation__wrap">\<p>Candidature envoyée avec succès!</p>\</div>\</div>' ).appendTo($('.c-form_wrap')).slideDown("fast");
-		 					}, 400)  
+		                          $('.c-success').html('<h4>Merci</h4><p>Votre demande a été envoyée avec succès. Nous communiquerons avec vous dès que possible</p>');
+		 					}, 500)  
 						}
 		        		},
 		        		cache: false,

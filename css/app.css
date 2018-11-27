@@ -799,7 +799,9 @@ h4 {
   font-size: 1.25rem;
   line-height: 1.5;
   font-family: "Montserrat", sans-serif;
-  font-size: 28px; }
+  font-size: 28px;
+  color: #1E1A49;
+  font-weight: 400; }
 
 h5 {
   font-size: 20px;
@@ -3338,6 +3340,8 @@ table {
   border-color: #434343;
   border-width: 1px;
   padding: 8px 12px; }
+  .c-contact form input[type="text"]:focus, .c-contact form input[type="email"]:focus, .c-contact form textarea:focus {
+    outline: none; }
 
 .c-contact form textarea {
   margin-bottom: 32px;
