@@ -2557,14 +2557,21 @@ a.js-section-active {
 /*==============================================================================
 		ABOUT
 	==============================================================================*/
-.c-our-mission {
-  margin-top: 128px; }
-  .c-our-mission .c-our-mission_img {
-    position: relative;
-    z-index: 4;
-    background: #FFF; }
-  .c-our-mission .c-our-mission_content {
-    max-width: 875px; }
+@media (min-width: 20em) {
+  .c-our-mission {
+    padding-top: 96px; } }
+
+@media (min-width: 720px) {
+  .c-our-mission {
+    margin-top: 144px; } }
+
+.c-our-mission .c-our-mission_img {
+  position: relative;
+  z-index: 4;
+  background: #FFF; }
+
+.c-our-mission .c-our-mission_content {
+  max-width: 875px; }
 
 #a-propos {
   position: relative; }
@@ -2579,8 +2586,7 @@ a.js-section-active {
   background: #f2f2f2;
   position: relative;
   padding-bottom: 0;
-  padding-right: 24px;
-  margin-top: -144px; }
+  padding-right: 24px; }
   @media (min-width: 20em) {
     .c-about_mask {
       padding-top: 96px; } }
@@ -2622,7 +2628,9 @@ a.js-section-active {
   .c-our-mission_img {
     padding: 0; }
   .c-our-mission .c-our-mission_img {
-    margin-bottom: 80px; } }
+    margin-bottom: 80px; }
+  .c-about_mask {
+    margin-top: -96px; } }
 
 @media only screen and (min-width: 720px) {
   .c-our-mission_content {
@@ -2654,7 +2662,9 @@ a.js-section-active {
       top: 0;
       height: 100%; }
   .c-our-mission .c-our-mission_img {
-    margin-top: -176px; } }
+    margin-top: -176px; }
+  .c-about_mask {
+    margin-top: -144px; } }
 
 @media only screen and (min-width: 960px) {
   .c-our-history_wrap {
@@ -2864,8 +2874,13 @@ a.js-section-active {
 /*==========================================================================
 		TEAM SECTION - PRESENTATION
 	==========================================================================*/
-.c-our-team {
-  padding-top: 144px; }
+@media (min-width: 20em) {
+  .c-our-team {
+    padding-top: 96px; } }
+
+@media (min-width: 720px) {
+  .c-our-team {
+    padding-top: 144px; } }
 
 .c-our-team_presentation {
   padding-bottom: 96px; }
@@ -3090,14 +3105,17 @@ a.js-section-active {
   margin-bottom: 0; }
 
 .c-our-team_role {
-  position: relative; }
+  position: relative;
+  margin-bottom: 40px; }
   .c-our-team_role:before {
     position: absolute;
     content: "";
     height: 5px;
     width: 80px;
     bottom: -24px;
-    background: #1E1A49; }
+    background: #1E1A49;
+    margin-left: -40px;
+    left: 50%; }
 
 /*******************************************************************************
 	CONTACT US
