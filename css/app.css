@@ -743,6 +743,9 @@ main a {
   color: #1E1A49 !important;
   text-decoration: none; }
 
+main a:hover {
+  text-decoration: underline; }
+
 .c-main {
   overflow-y: hidden; }
 
@@ -3480,6 +3483,21 @@ table {
     font-size: 24px; }
   .c-contact_logo {
     max-width: 380px; } }
+
+.parsley-errors-list {
+  margin-left: 0;
+  margin-top: -12px; }
+
+.parsley-errors-list li {
+  list-style-type: none;
+  color: #C90000; }
+
+.invalid-form-error-message p {
+  color: #C90000; }
+
+input#phone + .parsley-errors-list,
+textarea + .parsley-errors-list {
+  margin-top: -28px; }
 
 /*==============================================================================
     VENDORS
