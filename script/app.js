@@ -142,7 +142,43 @@
 							$('.c-partners').slick({
 							  infinite: true,
 							  slidesToShow: 4,
-							  slidesToScroll: 1
+							  slidesToScroll: 1,
+							   arrows: false,
+								responsive: [
+								    {
+								      breakpoint: 9999999999999,
+								      settings: {
+								        slidesToShow: 4,
+								      }
+								    },
+								    {
+								      breakpoint: 1280,
+								      settings: {
+								        slidesToShow: 3,
+								      }
+								    },
+								    {
+								      breakpoint: 1024,
+								      settings: {
+								        slidesToShow: 4,
+								      }
+								    },
+								    {
+								      breakpoint: 600,
+								      settings: {
+								        slidesToShow: 3,
+								      }
+								    },
+								    {
+								      breakpoint: 420,
+								      settings: {
+								        slidesToShow: 2,
+								      }
+								    }										    								    
+								    // You can unslick at a given breakpoint now by adding:
+								    // settings: "unslick"
+								    // instead of a settings object
+								  ]							  
 							});
 
 						/*==========================================================================
@@ -307,7 +343,7 @@
 							        var marker, i;
 							        for (i = 0; i < locations.length; i++) {  
 							            var image = {
-							                url: 'https://monconseiller.ca/assets/images/icons/pin.svg',
+							                url: 'http://synatec.test/assets/images/icons/marker.svg',
 							                scaledSize: new google.maps.Size(51, 78),
 							            };
 							            marker = new google.maps.Marker({
@@ -341,7 +377,11 @@
 						==========================================================================*/
 
 
-
+  var $hamburger = $(".hamburger");
+  $hamburger.on("click", function(e) {
+    $hamburger.toggleClass("is-active");
+   	$('html').toggleClass('js-menu-active');
+  });	
 
 
 var controller = new ScrollMagic.Controller();
@@ -360,6 +400,95 @@ var controller = new ScrollMagic.Controller();
 // }
 // })
 
+		
+
+							    new ScrollMagic.Scene({
+							      	triggerHook: 'onLeave',
+							      	triggerElement: '.c-banner_bg',
+							      	duration: $('.c-header').height()
+							    })
+
+							    .setTween(TweenMax.to('.c-banner_bg', 1, {y: '16%',opacity: '0.5', ease: Linear.easeNone}))
+							    .addTo(controller);
+
+							    new ScrollMagic.Scene({
+							      	triggerHook: "onCenter",
+							      	triggerElement: '.c-banner_info',
+							      	duration: $('.c-header').height()
+							    })
+
+							    .setTween(TweenMax.to('.c-banner_info', 1, {top: '55%',opacity: '1', ease: Linear.easeNone}))
+							    .addTo(controller);		
+
+
+							    new ScrollMagic.Scene({
+							      	triggerHook: "onCenter",
+							      	triggerElement: '.c-our-team_content h2 div',
+							      	duration: 300
+							    })
+
+							    .setTween(TweenMax.to('.c-our-team_content h2 div', 1, {top: '-24px',opacity: '1', ease: Linear.easeNone}))
+							    .addTo(controller);		
+
+							    new ScrollMagic.Scene({
+							      	triggerHook: "onCenter",
+							      	triggerElement: '.c-our-history .o-wrapper.-five h2 div',
+							      	duration: 300
+							    })
+
+							    .setTween(TweenMax.to('.c-our-history .o-wrapper.-five h2 div', 1, {top: '-24px',opacity: '1', ease: Linear.easeNone}))
+							    .addTo(controller);	
+
+							    new ScrollMagic.Scene({
+							      	triggerHook: "onCenter",
+							      	triggerElement: '.c-our-mission_content h2 div',
+							      	duration: 300
+							    })
+
+							    .setTween(TweenMax.to('.c-our-mission_content h2 div', 1, {top: '-24px',opacity: '1', ease: Linear.easeNone}))
+							    .addTo(controller);	
+
+							    new ScrollMagic.Scene({
+							      	triggerHook: "onEnter",
+							      	triggerElement: '.c-contact_form h2 div',
+							      	duration: 300,
+							      	offset: 300
+							    })
+
+							    .setTween(TweenMax.to('.c-contact_form h2 div', 1, {top: '-24px',opacity: '1', ease: Linear.easeNone}))
+							    .addTo(controller);			  
+
+							    // new ScrollMagic.Scene({
+							    // 	triggerHook:1,
+							    //   	triggerHook: 'onLeave',
+							    //   	triggerElement: '.c-our-mission_img',
+							    //   	duration: 800,
+							    //   	offset:-200
+							    // })
+
+							    // .setTween(TweenMax.to('.c-our-mission_img', 1, {y: '-20%', ease: Linear.easeNone}))
+							    // .addTo(controller);
+
+							    // new ScrollMagic.Scene({
+							    // 	triggerHook:1,
+							    //   	triggerHook: 'onEnter',
+							    //   	triggerElement: '.c-our-team_wrap',
+							    //   	duration: 1800
+							    // })
+
+							    // .setTween(TweenMax.to('.c-our-team_content', 1, {y: '-30%', ease: Linear.easeNone}))
+							    // .addTo(controller);		    
+
+							    // new ScrollMagic.Scene({
+							    // 	triggerHook:1,
+							    //   	triggerHook: 'onEnter',
+							    //   	triggerElement: '.c-our-team_wrap',
+							    //   	duration: 900,
+							    //   	offset:400
+							    // })
+
+							    // .setTween(TweenMax.to('.c-our-team_img', 1, {top: '20px', ease: Linear.easeNone}))
+							    // .addTo(controller);				
 						
 
 							    

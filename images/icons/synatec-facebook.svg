@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="29px" viewBox="0 0 15 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>facebook-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 15 0 15 29 0 29"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="accueil" transform="translate(-1712.000000, -60.000000)">
+            <g id="top-menu" transform="translate(97.000000, 42.000000)">
+                <g id="Group-4">
+                    <g id="facebook-icon" transform="translate(1615.000000, 18.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-2"></g>
+                        <path d="M9.73620185,28.9998492 L9.73620185,15.7715622 L14.1586595,15.7715622 L14.8207627,10.6162774 L9.73620185,10.6162774 L9.73620185,7.32479095 C9.73620185,5.83224388 10.1490601,4.81498948 12.28099,4.81498948 L15,4.81373639 L15,0.202919477 C14.5295339,0.140322955 12.915624,0 11.0379661,0 C7.11775424,0 4.43389831,2.40238375 4.43389831,6.81448136 L4.43389831,10.6164166 L0,10.6164166 L0,15.7717014 L4.43375963,15.7717014 L4.43375963,29 L9.73620185,28.9998492 Z" id="Fill-1" fill="#1E1A49" mask="url(#mask-2)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
