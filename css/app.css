@@ -749,6 +749,10 @@ main a:hover {
 .c-main {
   overflow-y: hidden; }
 
+*::selection {
+  color: #fff;
+  background: #2c2c2c; }
+
 /* ==========================================================================
    #HEADINGS
    ========================================================================== */
@@ -3495,9 +3499,11 @@ table {
 .invalid-form-error-message p {
   color: #C90000; }
 
-input#phone + .parsley-errors-list,
-textarea + .parsley-errors-list {
+input#phone + .parsley-errors-list {
   margin-top: -28px; }
+
+textarea + .parsley-errors-list {
+  margin-top: -36px; }
 
 /*==============================================================================
     VENDORS
