@@ -1802,12 +1802,11 @@ table {
   background-color: transparent;
   border: 1px solid #1E1A49;
   color: #1E1A49; }
-  .c-btn--primary:hover, .c-btn--primary:active, .c-btn--primary:focus {
+  .c-btn--primary:hover {
     text-decoration: none;
     /* [4] */
-    color: #fff; }
-  .c-btn--primary:hover, .c-btn--primary:focus {
-    background-color: #3774a2; }
+    color: #fff;
+    background-color: #1E1A49 !important; }
 
 .c-btn--secondary {
   background-color: transparent;

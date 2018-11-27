@@ -343,7 +343,7 @@
 							        var marker, i;
 							        for (i = 0; i < locations.length; i++) {  
 							            var image = {
-							                url: 'http://synatec.test/assets/images/icons/marker.svg',
+							                url: 'http://synatec.agencezel.com/assets/images/icons/marker.svg',
 							                scaledSize: new google.maps.Size(51, 78),
 							            };
 							            marker = new google.maps.Marker({
