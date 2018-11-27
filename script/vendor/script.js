@@ -374,9 +374,8 @@
 
 
 if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-	if ($(window).width() < 769) {
-
- 		$('.c-banner_bg').innerHeight($(window).innerHeight() - $('.c-header_nav ').innerHeight() -36 );
+	if($(window).innerHeight() < 769 ) { 
+ $('.c-banner_bg').innerHeight($(window).innerHeight() - $('.c-header_nav ').innerHeight() -36 );
 }
 }
 
